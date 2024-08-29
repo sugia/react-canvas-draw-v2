@@ -1,8 +1,9 @@
 <div align="center">
-<h1>React Canvas Draw</h1>
+<h1>React Canvas Draw V2</h1>
 </div>
 
 > A simple yet powerful canvas-drawing component for React ([Demo](https://embiem.github.io/react-canvas-draw/))
+> This package is designed to support React 18.x
 
 [![Travis][build-badge]][build] [![Coveralls][coveralls-badge]][coveralls] [![npm package][npm-badge]][npm] [![downloads][downloads-badge]][npmtrends] [![MIT License][license-badge]][license]
 
@@ -17,13 +18,7 @@
 Install via NPM:
 
 ```
-npm install react-canvas-draw --save
-```
-
-or YARN:
-
-```
-yarn add react-canvas-draw
+npm install react-canvas-draw-v2
 ```
 
 ## Usage
@@ -31,7 +26,7 @@ yarn add react-canvas-draw
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import CanvasDraw from "react-canvas-draw";
+import CanvasDraw from "react-canvas-draw-v2";
 
 ReactDOM.render(<CanvasDraw />, document.getElementById("root"));
 ```
